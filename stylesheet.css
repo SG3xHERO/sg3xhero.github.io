@@ -1,0 +1,359 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* padding-top: 50px; */
+  background-color: black !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+figure {
+  display: block;
+  width: 50vw;
+}
+.nav-link {
+  animation: bgColor 10s infinite linear;
+}
+@keyframes bgColor {
+  0% {
+    color: lightpink;
+  }
+  25% {
+    color: #ffa6c9;
+  }
+  50% {
+    color: pink;
+  }
+  75% {
+    color: #ffa6c9;
+  }
+  100% {
+    color: lightpink;
+  }
+}
+.highlight {
+  background: rgba(255, 230, 0, 0.5);
+  padding: 3px 5px;
+  margin: -3px -5px;
+  line-height: 1.7;
+  border-radius: 5px;
+  display: inline;
+}
+@keyframes spinright {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.35);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+.colourmod.fab:hover,
+.colourmod.fas:hover {
+  animation: spinright 5s infinite;
+}
+.navbar-brand:hover {
+  animation: spinright 5s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 1000px, 0);
+  }
+}
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  align-items: center;
+}
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.mik-messenger {
+  padding-top: 25px;
+  /* background image */
+  background-image: url(https://media.giphy.com/media/UTvuwR7Zyn25CJZri0/giphy-downsized-large.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sneaky {
+  display: None;
+}
+.homeboy {
+  /* window size */
+  width: 100%;
+  height: 100vh;
+  /* background image */
+  background-image: url(https://media.giphy.com/media/Vs4EbNX0IChNe/giphy.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bluehaze {
+  /* Student of IM  */
+  background-image: url(https://media.giphy.com/media/kHwnICkqQh5RIydbEU/giphy.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.biosphere {
+  /* Student of IM  */
+  background-image: url(https://media1.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four-naught-four {
+  /* background image */
+  background-image: url(https://media.giphy.com/media/IblcVM0Sl2hr3hD0Sd/giphy.gif) !important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.construction {
+  vertical-align: middle;
+}
+.thotdynamiks {
+  background-image: url(https://media.giphy.com/media/xUOwGggqGjv0yQfUgU/giphy.gif);
+  vertical-align: middle;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nyander {
+  /* Nyander promo */
+  background-image: url(https://media.giphy.com/media/zYQyUBXhM9RhS/giphy.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.awwww {
+  /* awwww */
+  padding-top: 50px;
+  background-image: url(https://media.giphy.com/media/l0HlFIiE7rbmeklZC/giphy.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* style=position: absolute; */
+}
+.hitmeup {
+  /*  @me if you wanna skeet me */
+  background-image: url(https://media.giphy.com/media/l41lO0QvEQ8kjaIko/giphy.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.my-messages {
+  /* Nyander promo */
+  background-image: url(https://media.giphy.com/media/26ufplp8yheSKUE00/giphy.gif);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blur {
+  background-image: -webkit-linear-gradient(#fd04d7, #40e0d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  text-shadow: 0.1vw 0.1vw 0.1vw white !important;
+
+  font-weight: normal;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  margin: 10;
+}
+.blur:after {
+  background: none;
+  content: attr(data-text);
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  color: white !important;
+}
+.colourmod {
+  text-shadow: 0.5vw 0.5vw 0.5vw #fd04d7;
+  font-weight: normal;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  margin: 10;
+}
+.bigbig {
+  color: #ddd;
+  font-size: 12vw;
+  line-height: 12vw;
+}
+.big {
+  color: #eee;
+  font-size: 4vw;
+  line-height: 4vw;
+}
+.small {
+  color: #fff;
+  font-size: 2vw;
+  line-height: 3vw;
+}
+.image {
+  border-radius: 30px;
+  width: 30vw;
+  transition: all 0.23s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+.rotato {
+  -ms-transform: rotate(-7deg); /* IE 9 */
+  -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+  transform: rotate(-7deg);
+}
+.responsive-container {
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+}
+.iconspacing {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.footer {
+  /* background-image: url(http://giphygifs.s3.amazonaws.com/media/2Fazad9Hs5xPAF6iQ/giphy.gif); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font and stuff */
+  color: lightgray;
+  /* Fallback */
+  background-color: #2a3746 !important;
+}
+.footer a {
+  color: lightpink;
+}
+.footer a:hover {
+  color: hotpink;
+  font-size: 110%;
+}
+.footer a:visited {
+  text-decoration: underline;
+}
+.form-fields {
+  padding-left: 20vw;
+  width: 80vw;
+}
+.ig-handler {
+  padding-right: 1em;
+}
+.input-fields {
+  padding-bottom: 1vw;
+  padding-left: 3vw;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.button-handler {
+  margin: 0 21vw;
+}
+.bg-mik {
+  background-color: rgba(52, 58, 64, 0.897) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px) !important  ;
+}
+.bg-primary-mik {
+  background-color: rgba(0, 123, 255, 0.897) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px) !important  ;
+}
+.bg-blur {
+  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px) !important  ;
+}
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-position: center;
+    background-repeat: repeat;
+  } */
+  figure {
+    width: 100vw;
+  }
+  .bluehaze-image {
+    width: 100vw;
+  }
+  .four-naught-four {
+    overflow: hidden;
+    background-image: url(https://media.giphy.com/media/IblcVM0Sl2hr3hD0Sd/giphy.gif)
+      repeat-x !important;
+    height: 100px;
+    width: 1000px;
+    animation: slide 10s linear infinite;
+  }
+  .image {
+    width: 100vw;
+  }
+  .bottom-pad {
+    margin-bottom: 15px;
+  }
+  #sunlight {
+    order: 2;
+  }
+  #vangogh {
+    order: 1;
+  }
+  #pickup {
+    order: 3;
+  }
+  @keyframes slide {
+    0% {
+      transform: translate3d(-1, 0, 0);
+    }
+    100% {
+      transform: translate3d(-650px, 0, 0);
+    }
+  }
+  .ig-handler {
+    padding-right: 1em;
+    max-width: 66vw;
+  }
+  .button-handler {
+    margin: 0 auto;
+  }
+}
